@@ -1,0 +1,13 @@
+#set term qt 0 enhanced # linux
+#set term wxt 0 enhanced # mac
+#set size 600,400
+set font "Helvetica,16"
+set border lw 2.0
+set xlabel "X"
+set ylabel "Y"
+set xtics 1
+set mxtics 2
+set ytics 1
+set mytics 4
+set key samplen 1.5
+plot sin(x) w l lw 2.0 lc rgb "red" title "sin(x)"
